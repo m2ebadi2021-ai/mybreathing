@@ -1,4 +1,4 @@
-package com.example.util
+package ir.taravatgroup.aramesh.util
 
 import android.content.Context
 import android.os.Build

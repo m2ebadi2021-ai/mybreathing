@@ -1,9 +1,9 @@
-package com.example.data.repository
+package ir.taravatgroup.aramesh.data.repository
 
-import com.example.data.local.CustomExerciseDao
-import com.example.data.local.SessionDao
-import com.example.data.model.BreathingExercise
-import com.example.data.model.PracticeSession
+import ir.taravatgroup.aramesh.data.local.CustomExerciseDao
+import ir.taravatgroup.aramesh.data.local.SessionDao
+import ir.taravatgroup.aramesh.data.model.BreathingExercise
+import ir.taravatgroup.aramesh.data.model.PracticeSession
 import kotlinx.coroutines.flow.Flow
 
 class BreathworkRepository(

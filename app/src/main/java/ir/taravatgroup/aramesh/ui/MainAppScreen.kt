@@ -1,4 +1,4 @@
-package com.example.ui
+package ir.taravatgroup.aramesh.ui
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedContent
@@ -46,20 +46,20 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.ui.screens.BreathingSessionScreen
-import com.example.ui.screens.ExercisesListScreen
-import com.example.ui.screens.StatsDashboardScreen
-import com.example.ui.theme.AmberDark
-import com.example.ui.theme.AmberGlow
-import com.example.ui.theme.AmberPrimary
-import com.example.ui.theme.DarkBackground
-import com.example.ui.theme.DarkSurface
-import com.example.ui.theme.DarkSurfaceBorder
-import com.example.ui.theme.DarkSurfaceElevated
-import com.example.ui.theme.TextMuted
-import com.example.ui.theme.TextPrimary
-import com.example.ui.theme.TextSecondary
-import com.example.ui.viewmodel.BreathworkViewModel
+import ir.taravatgroup.aramesh.ui.screens.BreathingSessionScreen
+import ir.taravatgroup.aramesh.ui.screens.ExercisesListScreen
+import ir.taravatgroup.aramesh.ui.screens.StatsDashboardScreen
+import ir.taravatgroup.aramesh.ui.theme.AmberDark
+import ir.taravatgroup.aramesh.ui.theme.AmberGlow
+import ir.taravatgroup.aramesh.ui.theme.AmberPrimary
+import ir.taravatgroup.aramesh.ui.theme.DarkBackground
+import ir.taravatgroup.aramesh.ui.theme.DarkSurface
+import ir.taravatgroup.aramesh.ui.theme.DarkSurfaceBorder
+import ir.taravatgroup.aramesh.ui.theme.DarkSurfaceElevated
+import ir.taravatgroup.aramesh.ui.theme.TextMuted
+import ir.taravatgroup.aramesh.ui.theme.TextPrimary
+import ir.taravatgroup.aramesh.ui.theme.TextSecondary
+import ir.taravatgroup.aramesh.ui.viewmodel.BreathworkViewModel
 
 enum class MainTab(
     val titlePersian: String,

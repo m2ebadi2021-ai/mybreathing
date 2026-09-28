@@ -1,4 +1,4 @@
-package com.example.ui.components
+package ir.taravatgroup.aramesh.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -25,14 +25,14 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.example.ui.theme.AmberGlow
-import com.example.ui.theme.AmberPrimary
-import com.example.ui.theme.DarkSurfaceBorder
-import com.example.ui.theme.DarkSurfaceElevated
-import com.example.ui.theme.TextMuted
-import com.example.ui.theme.TextPrimary
-import com.example.ui.theme.TextSecondary
-import com.example.util.toPersianDigits
+import ir.taravatgroup.aramesh.ui.theme.AmberGlow
+import ir.taravatgroup.aramesh.ui.theme.AmberPrimary
+import ir.taravatgroup.aramesh.ui.theme.DarkSurfaceBorder
+import ir.taravatgroup.aramesh.ui.theme.DarkSurfaceElevated
+import ir.taravatgroup.aramesh.ui.theme.TextMuted
+import ir.taravatgroup.aramesh.ui.theme.TextPrimary
+import ir.taravatgroup.aramesh.ui.theme.TextSecondary
+import ir.taravatgroup.aramesh.util.toPersianDigits
 
 @Composable
 fun StatCard(

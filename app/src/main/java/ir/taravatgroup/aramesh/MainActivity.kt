@@ -1,4 +1,4 @@
-package com.example
+package ir.taravatgroup.aramesh
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -7,9 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.example.ui.MainAppScreen
-import com.example.ui.theme.DarkBackground
-import com.example.ui.theme.MyApplicationTheme
+import ir.taravatgroup.aramesh.ui.MainAppScreen
+import ir.taravatgroup.aramesh.ui.theme.DarkBackground
+import ir.taravatgroup.aramesh.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

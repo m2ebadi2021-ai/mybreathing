@@ -1,4 +1,4 @@
-package com.example.ui.components
+package ir.taravatgroup.aramesh.ui.components
 
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.LinearEasing
@@ -20,11 +20,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
-import com.example.data.model.BreathingPhase
-import com.example.ui.theme.AmberDark
-import com.example.ui.theme.AmberGlow
-import com.example.ui.theme.AmberOrange
-import com.example.ui.theme.AmberPrimary
+import ir.taravatgroup.aramesh.data.model.BreathingPhase
+import ir.taravatgroup.aramesh.ui.theme.AmberDark
+import ir.taravatgroup.aramesh.ui.theme.AmberGlow
+import ir.taravatgroup.aramesh.ui.theme.AmberOrange
+import ir.taravatgroup.aramesh.ui.theme.AmberPrimary
 import kotlin.math.PI
 import kotlin.math.cos
 import kotlin.math.sin

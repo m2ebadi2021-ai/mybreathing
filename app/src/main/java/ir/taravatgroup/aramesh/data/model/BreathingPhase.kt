@@ -1,4 +1,4 @@
-package com.example.data.model
+package ir.taravatgroup.aramesh.data.model
 
 enum class BreathingPhase(
     val titlePersian: String,

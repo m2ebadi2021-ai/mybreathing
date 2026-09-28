@@ -1,4 +1,4 @@
-package com.example.ui.screens
+package ir.taravatgroup.aramesh.ui.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -40,25 +40,25 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.data.model.PracticeSession
-import com.example.ui.components.PersianJalaliCalendarView
-import com.example.ui.components.StatCard
-import com.example.ui.components.WeeklyBarChart
-import com.example.ui.theme.AmberDark
-import com.example.ui.theme.AmberGlow
-import com.example.ui.theme.AmberOrange
-import com.example.ui.theme.AmberPrimary
-import com.example.ui.theme.DarkBackground
-import com.example.ui.theme.DarkSurfaceBorder
-import com.example.ui.theme.DarkSurfaceElevated
-import com.example.ui.theme.FireOrange
-import com.example.ui.theme.FireRed
-import com.example.ui.theme.TextMuted
-import com.example.ui.theme.TextPrimary
-import com.example.ui.theme.TextSecondary
-import com.example.util.JalaliCalendarHelper
-import com.example.util.JalaliDate
-import com.example.util.toPersianDigits
+import ir.taravatgroup.aramesh.data.model.PracticeSession
+import ir.taravatgroup.aramesh.ui.components.PersianJalaliCalendarView
+import ir.taravatgroup.aramesh.ui.components.StatCard
+import ir.taravatgroup.aramesh.ui.components.WeeklyBarChart
+import ir.taravatgroup.aramesh.ui.theme.AmberDark
+import ir.taravatgroup.aramesh.ui.theme.AmberGlow
+import ir.taravatgroup.aramesh.ui.theme.AmberOrange
+import ir.taravatgroup.aramesh.ui.theme.AmberPrimary
+import ir.taravatgroup.aramesh.ui.theme.DarkBackground
+import ir.taravatgroup.aramesh.ui.theme.DarkSurfaceBorder
+import ir.taravatgroup.aramesh.ui.theme.DarkSurfaceElevated
+import ir.taravatgroup.aramesh.ui.theme.FireOrange
+import ir.taravatgroup.aramesh.ui.theme.FireRed
+import ir.taravatgroup.aramesh.ui.theme.TextMuted
+import ir.taravatgroup.aramesh.ui.theme.TextPrimary
+import ir.taravatgroup.aramesh.ui.theme.TextSecondary
+import ir.taravatgroup.aramesh.util.JalaliCalendarHelper
+import ir.taravatgroup.aramesh.util.JalaliDate
+import ir.taravatgroup.aramesh.util.toPersianDigits
 
 @Composable
 fun StatsDashboardScreen(

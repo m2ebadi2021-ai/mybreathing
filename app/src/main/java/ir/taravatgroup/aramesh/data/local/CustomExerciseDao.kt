@@ -1,11 +1,11 @@
-package com.example.data.local
+package ir.taravatgroup.aramesh.data.local
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.example.data.model.BreathingExercise
+import ir.taravatgroup.aramesh.data.model.BreathingExercise
 import kotlinx.coroutines.flow.Flow
 
 @Dao

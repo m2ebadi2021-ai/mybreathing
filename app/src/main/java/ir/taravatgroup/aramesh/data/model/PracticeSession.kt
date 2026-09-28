@@ -1,4 +1,4 @@
-package com.example.data.model
+package ir.taravatgroup.aramesh.data.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

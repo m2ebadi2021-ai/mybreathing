@@ -1,4 +1,4 @@
-package com.example.ui.screens
+package ir.taravatgroup.aramesh.ui.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -45,19 +45,19 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.data.model.BreathingExercise
-import com.example.ui.theme.AmberDark
-import com.example.ui.theme.AmberGlow
-import com.example.ui.theme.AmberOrange
-import com.example.ui.theme.AmberPrimary
-import com.example.ui.theme.DarkBackground
-import com.example.ui.theme.DarkSurfaceBorder
-import com.example.ui.theme.DarkSurfaceElevated
-import com.example.ui.theme.FireOrange
-import com.example.ui.theme.TextMuted
-import com.example.ui.theme.TextPrimary
-import com.example.ui.theme.TextSecondary
-import com.example.util.toPersianDigits
+import ir.taravatgroup.aramesh.data.model.BreathingExercise
+import ir.taravatgroup.aramesh.ui.theme.AmberDark
+import ir.taravatgroup.aramesh.ui.theme.AmberGlow
+import ir.taravatgroup.aramesh.ui.theme.AmberOrange
+import ir.taravatgroup.aramesh.ui.theme.AmberPrimary
+import ir.taravatgroup.aramesh.ui.theme.DarkBackground
+import ir.taravatgroup.aramesh.ui.theme.DarkSurfaceBorder
+import ir.taravatgroup.aramesh.ui.theme.DarkSurfaceElevated
+import ir.taravatgroup.aramesh.ui.theme.FireOrange
+import ir.taravatgroup.aramesh.ui.theme.TextMuted
+import ir.taravatgroup.aramesh.ui.theme.TextPrimary
+import ir.taravatgroup.aramesh.ui.theme.TextSecondary
+import ir.taravatgroup.aramesh.util.toPersianDigits
 
 @Composable
 fun ExercisesListScreen(

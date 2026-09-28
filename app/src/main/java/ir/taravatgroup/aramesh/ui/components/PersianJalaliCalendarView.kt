@@ -1,4 +1,4 @@
-package com.example.ui.components
+package ir.taravatgroup.aramesh.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -35,18 +35,18 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.ui.theme.AmberDark
-import com.example.ui.theme.AmberGlow
-import com.example.ui.theme.AmberPrimary
-import com.example.ui.theme.DarkSurface
-import com.example.ui.theme.DarkSurfaceBorder
-import com.example.ui.theme.DarkSurfaceElevated
-import com.example.ui.theme.TextMuted
-import com.example.ui.theme.TextPrimary
-import com.example.ui.theme.TextSecondary
-import com.example.util.JalaliCalendarHelper
-import com.example.util.JalaliDate
-import com.example.util.toPersianDigits
+import ir.taravatgroup.aramesh.ui.theme.AmberDark
+import ir.taravatgroup.aramesh.ui.theme.AmberGlow
+import ir.taravatgroup.aramesh.ui.theme.AmberPrimary
+import ir.taravatgroup.aramesh.ui.theme.DarkSurface
+import ir.taravatgroup.aramesh.ui.theme.DarkSurfaceBorder
+import ir.taravatgroup.aramesh.ui.theme.DarkSurfaceElevated
+import ir.taravatgroup.aramesh.ui.theme.TextMuted
+import ir.taravatgroup.aramesh.ui.theme.TextPrimary
+import ir.taravatgroup.aramesh.ui.theme.TextSecondary
+import ir.taravatgroup.aramesh.util.JalaliCalendarHelper
+import ir.taravatgroup.aramesh.util.JalaliDate
+import ir.taravatgroup.aramesh.util.toPersianDigits
 
 @Composable
 fun PersianJalaliCalendarView(
