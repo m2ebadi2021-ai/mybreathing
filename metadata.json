@@ -1,0 +1,6 @@
+{
+  "name": "تنفس آرامش",
+  "description": "تمرینات تنفس و مراقبه با انیمیشن موج سینوسی، تقویم شمسی و هپتیک بازخورد",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

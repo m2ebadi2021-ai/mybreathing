@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">تنفس آرامش</string>
+    <string name="tab_breath">تنفس</string>
+    <string name="tab_exercises">تمرین‌ها</string>
+    <string name="tab_stats">آمار و تقویم</string>
+    <string name="inhale">دم</string>
+    <string name="hold">حبس نفس</string>
+    <string name="exhale">بازدم</string>
+    <string name="hold_empty">حبس بازدم</string>
+    <string name="ready">آماده‌اید؟</string>
+    <string name="start">شروع تمرین</string>
+    <string name="pause">توقف</string>
+    <string name="resume">ادامه</string>
+    <string name="stop">پایان</string>
+    <string name="cycle">دور</string>
+    <string name="seconds_abbr">ثانیه</string>
+    <string name="minutes_abbr">دقیقه</string>
+    <string name="sound_enabled">صدا</string>
+    <string name="haptic_enabled">لرزش (هپتیک)</string>
+    <string name="custom_exercise">تمرین اختصاصی</string>
+    <string name="new_exercise">ساخت تمرین جدید</string>
+    <string name="streak_days">روز تمرین پیاپی</string>
+    <string name="total_sessions">کل جلسات</string>
+    <string name="total_minutes">کل زمان تنفس</string>
+    <string name="today_status">وضعیت امروز</string>
+</resources>
