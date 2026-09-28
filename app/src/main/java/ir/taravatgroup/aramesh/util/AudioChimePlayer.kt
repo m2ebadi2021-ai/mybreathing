@@ -1,4 +1,4 @@
-package com.example.util
+package ir.taravatgroup.aramesh.util
 
 import android.media.AudioAttributes
 import android.media.AudioFormat

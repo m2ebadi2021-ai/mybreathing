@@ -1,11 +1,11 @@
-package com.example.data.local
+package ir.taravatgroup.aramesh.data.local
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.data.model.BreathingExercise
-import com.example.data.model.PracticeSession
+import ir.taravatgroup.aramesh.data.model.BreathingExercise
+import ir.taravatgroup.aramesh.data.model.PracticeSession
 
 @Database(
     entities = [PracticeSession::class, BreathingExercise::class],

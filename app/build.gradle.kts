@@ -31,10 +31,13 @@ android {
       keyPassword = System.getenv("KEY_PASSWORD")
     }
     create("debugConfig") {
-      // storeFile = file("${rootDir}/debug.keystore")
-      // storePassword = "android"
-      // keyAlias = "androiddebugkey"
-      // keyPassword = "android"
+      val debugKey = file("${rootDir}/debug.keystore")
+      if (debugKey.exists()) {
+        storeFile = debugKey
+        storePassword = "android"
+        keyAlias = "androiddebugkey"
+        keyPassword = "android"
+      }
     }
   }
 
@@ -43,11 +46,14 @@ android {
       isCrunchPngs = false
       isMinifyEnabled = false
       proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-      // signingConfig = signingConfigs.getByName("release")
+      signingConfig = signingConfigs.getByName("release")
     }
     debug { 
-      // signingConfig = signingConfigs.getByName("debugConfig") 
+      val debugKey = file("${rootDir}/debug.keystore")
+      if (debugKey.exists()) {
+        signingConfig = signingConfigs.getByName("debugConfig") 
       }
+    }
   }
   compileOptions {
     sourceCompatibility = JavaVersion.VERSION_11

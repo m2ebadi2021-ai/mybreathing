@@ -1,10 +1,10 @@
-package com.example
+package ir.taravatgroup.aramesh
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
-import com.example.data.model.BreathingExercise
-import com.example.util.JalaliCalendarHelper
-import com.example.util.toPersianDigits
+import ir.taravatgroup.aramesh.data.model.BreathingExercise
+import ir.taravatgroup.aramesh.util.JalaliCalendarHelper
+import ir.taravatgroup.aramesh.util.toPersianDigits
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test

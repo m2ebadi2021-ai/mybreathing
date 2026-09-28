@@ -41,6 +41,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import ir.taravatgroup.aramesh.data.model.PracticeSession
+import ir.taravatgroup.aramesh.ui.components.DailyPracticeStat
 import ir.taravatgroup.aramesh.ui.components.PersianJalaliCalendarView
 import ir.taravatgroup.aramesh.ui.components.StatCard
 import ir.taravatgroup.aramesh.ui.components.WeeklyBarChart
@@ -66,7 +67,7 @@ fun StatsDashboardScreen(
     totalDurationSeconds: Int,
     totalSessionsCount: Int,
     streakDays: Int,
-    weeklyStats: List<com.example.ui.components.DailyPracticeStat>,
+    weeklyStats: List<DailyPracticeStat>,
     modifier: Modifier = Modifier
 ) {
     var selectedDateInfo by remember { mutableStateOf<String?>(null) }
